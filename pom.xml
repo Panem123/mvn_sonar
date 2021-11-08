@@ -84,8 +84,6 @@
               <centralAnalyzerEnabled>false</centralAnalyzerEnabled>  
               <!-- Am I the latest version? -->  
               <versionCheckEnabled>true</versionCheckEnabled>  
-	      <cveUrlModified>https://www.lhorn.de/nist/nvdcve-1.1-2019.json.gz</cveUrlModified>
-              <cveUrlBase>https://www.lhorn.de/nist/nvdcve-1.1-2019.json.gz</cveUrlBase>
              </configuration>  
             </plugin>
 	   <plugin>
@@ -118,9 +116,9 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost -->
-                    <zapHost>http://18.220.176.169</zapHost>
+                    <zapHost>http://18.117.178.131</zapHost>
                     <zapPort>8080</zapPort>
-                    <targetUrl>http://18.220.176.169:8098/rest/demo</targetUrl>
+                    <targetUrl>http://18.117.178.131:8098/rest/demo</targetUrl>
                 </configuration>
             </plugin>
             <!-- <plugin>
@@ -129,8 +127,8 @@
 	               <version>1.2.1-0</version>
 	               <configuration>
 		               <zapPort>8080</zapPort>
-			       <zapHost>http://18.220.176.169</zapHost>
-		               <targetUrl>http://18.220.176.169:8098/rest/demo</targetUrl>
+			       <zapHost>http://18.117.178.131</zapHost>
+		               <targetUrl>http://18.117.178.131:8098/rest/demo</targetUrl>
 		               <shouldRunWithDocker>true</shouldRunWithDocker>
                         </configuration>
             </plugin> -->
