@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://3.132.215.117:9000</sonar.host.url>
+    <sonar.host.url>http://18.117.178.131:9000</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>admin123</sonar.password>
     <!-- JaCoCo Properties -->
@@ -54,11 +54,11 @@
   <distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-           <url>http://3.132.215.117:8081/repository/maven-snapshots</url>
+           <url>http://18.117.178.131:8081/repository/maven-snapshots</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
-      <url>http://3.132.215.117:8081/nexus/content/repositories/releases</url>
+      <url>http://18.117.178.131:8081/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
   
@@ -115,9 +115,9 @@
                 <version>1.2.1-0</version>
                 <configuration>
                     <!-- If ZAP is running on localhost, there is no need to define zapHost -->
-                    <zapHost>http://3.132.215.117</zapHost>
+                    <zapHost>http://18.117.178.131</zapHost>
                     <zapPort>8080</zapPort>
-                    <targetUrl>http://3.132.215.117:8098/rest/demo</targetUrl>
+                    <targetUrl>http://18.117.178.131:8098/rest/demo</targetUrl>
                 </configuration>
             </plugin>
             <!-- <plugin>
@@ -126,8 +126,8 @@
 	               <version>1.2.1-0</version>
 	               <configuration>
 		               <zapPort>8080</zapPort>
-			       <zapHost>http://3.132.215.117</zapHost>
-		               <targetUrlhttp://3.132.215.117:8098/rest/demo</targetUrl>
+			       <zapHost>http://18.117.178.131</zapHost>
+		               <targetUrlhttp://18.117.178.131:8098/rest/demo</targetUrl>
 		               <shouldRunWithDocker>true</shouldRunWithDocker>
                         </configuration>
             </plugin> -->
